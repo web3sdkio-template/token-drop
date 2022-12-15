@@ -2,19 +2,19 @@
 
 ## Introduction
 
-In this guide, we will utilize the [**Token Drop**](https://portal.web3sdk.io/contracts/token-drop) contract to release ERC-20 tokens!
+In this guide, we will utilize the [**Token Drop**](https://docs.web3sdk.io/contracts/token-drop) contract to release ERC-20 tokens!
 
-We also utilize the token drop's [claim phases](https://portal.web3sdk.io/pre-built-contracts/token-drop#setting-claim-phases) feature, to release the tokens for a price, and only allow a certain amount to be claimed per wallet.
+We also utilize the token drop's [claim phases](https://docs.web3sdk.io/pre-built-contracts/token-drop#setting-claim-phases) feature, to release the tokens for a price, and only allow a certain amount to be claimed per wallet.
 
-**Check out the Demo here**: https://token-drop.web3sdkio-example.com/
+**Check out the Demo here**: https://token-drop.web3sdkio-template.com/
 
 ## Tools:
 
-- [**web3sdkio Token Drop**](https://portal.web3sdk.io/contracts/token-drop): web3sdkio's Token Drop contract is a way of releasing your ERC20 tokens!
+- [**web3sdkio Token Drop**](https://docs.web3sdk.io/contracts/token-drop): web3sdkio's Token Drop contract is a way of releasing your ERC20 tokens!
 
 - [**web3sdkio React SDK**](https://docs.web3sdk.io/react): To connect to our NFT Collection Smart contract via React hooks such as [useTokenDrop](https://docs.web3sdk.io/react/react.usetokendrop), connect user's wallets, and other awesome hooks like [useActiveClaimCondition](https://docs.web3sdk.io/react/react.useactiveclaimcondition) and [useClaimIneligibilityReasons](https://docs.web3sdk.io/react/react.useclaimineligibilityreasons).
 
-- [**web3sdkio TypeScript SDK**](https://docs.web3sdk.io/typescript): To claim/mint tokens from the token drop with [.claim](https://portal.web3sdk.io/pre-built-contracts/token-drop#claiming-tokens) , view token balance with [.balanceOf](https://portal.web3sdk.io/pre-built-contracts/token-drop#token-balance), and transfer tokens with [.transfer](https://portal.web3sdk.io/pre-built-contracts/token-drop#transfer-tokens).
+- [**web3sdkio TypeScript SDK**](https://docs.web3sdk.io/typescript): To claim/mint tokens from the token drop with [.claim](https://docs.web3sdk.io/pre-built-contracts/token-drop#claiming-tokens) , view token balance with [.balanceOf](https://docs.web3sdk.io/pre-built-contracts/token-drop#token-balance), and transfer tokens with [.transfer](https://docs.web3sdk.io/pre-built-contracts/token-drop#transfer-tokens).
 
 ## Using This Repo
 
@@ -51,7 +51,7 @@ function MyApp({ Component, pageProps }) {
 
 ## Connecting User's Wallets
 
-We use the [useMetamask](https://portal.web3sdk.io/react/react.usemetamask) hook to connect with user's wallets.
+We use the [useMetamask](https://docs.web3sdk.io/react/react.usemetamask) hook to connect with user's wallets.
 
 ```jsx
 const connectWithMetamask = useMetamask();
@@ -104,4 +104,4 @@ const [amountToClaim, setAmountToClaim] = useState("");
 
 ## Join our Discord!
 
-For any questions, suggestions, join our discord at [https://discord.gg/cd web3sdkio](https://discord.gg/web3sdkio).
+For any questions, suggestions, join our discord at [https://discord.gg/cd web3sdkio](https://discord.gg/n33UhsfUKB).
